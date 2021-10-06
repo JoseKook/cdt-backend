@@ -30,9 +30,6 @@ class Server {
 
         // Lectura y parseo del body
         this.app.use( express.json() );
-
-        // Directorio Público
-        this.app.use( express.static('public') );
     }
 
     routes() {
