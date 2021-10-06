@@ -7,7 +7,7 @@ const { crearPlazo,
         obtenerPlazos,
         obtenerPlazo,
         actualizarPlazo, 
-        borrarPlazo } = require('../controllers/Plazos');
+        borrarPlazo } = require('../controllers/plazos');
 
 const router = Router();
 
