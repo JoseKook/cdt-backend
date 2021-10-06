@@ -10,7 +10,7 @@ const ProductoSchema = Schema({
         type: String,
         required: [true, 'El SKU es obligatorio']
     },
-    descripción: {
+    descripcion: {
         type: String,
         default: ''
     },

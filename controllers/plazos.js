@@ -3,9 +3,9 @@ const { Plazo } = require('../models');
 
 const obtenerPlazos = async(req, res = response ) => {
 
-    const plazo = await Plazo.find();
+    const plazos = await Plazo.find();
 
-    res.json({ plazo });
+    res.json({ plazos });
 }
 
 const obtenerPlazo = async(req, res = response ) => {
